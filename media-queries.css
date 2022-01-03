@@ -1,0 +1,36 @@
+@media screen and (max-width: 450px) {
+    * {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hidden-on-desktop {
+        text-align: center;
+        background-color: lightblue;
+        padding: 1em;
+        border: solid 2px lightgray;
+        width: 100%;
+    }
+
+    .header-img {
+        display: flex;
+        justify-content: center;
+        width: 50%
+    }
+
+    .header-img > img {
+        width: 100%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+}
